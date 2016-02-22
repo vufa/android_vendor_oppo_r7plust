@@ -896,7 +896,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plusm/proprietary/lib64/hw/audio_policy.default.so:system/lib64/hw/audio_policy.default.so \
     vendor/oppo/r7plusm/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
     vendor/oppo/r7plusm/proprietary/lib64/hw/camera.mt6795.so:system/lib64/hw/camera.mt6795.so \
-    vendor/oppo/r7plusm/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/oppo/r7plusm/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/oppo/r7plusm/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so \
     vendor/oppo/r7plusm/proprietary/lib64/hw/hwcomposer.mt6795.so:system/lib64/hw/hwcomposer.mt6795.so \
@@ -948,7 +947,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plusm/proprietary/lib64/libRSDriver.so:system/lib64/libRSDriver.so \
     vendor/oppo/r7plusm/proprietary/lib64/libRScpp.so:system/lib64/libRScpp.so \
     vendor/oppo/r7plusm/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
-    vendor/oppo/r7plusm/proprietary/lib64/lib_unique_id.so:system/lib64/lib_unique_id.so \
     vendor/oppo/r7plusm/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
     vendor/oppo/r7plusm/proprietary/lib64/libaal.so:system/lib64/libaal.so \
     vendor/oppo/r7plusm/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
@@ -1321,7 +1319,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plusm/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/oppo/r7plusm/proprietary/vendor/bin/pvrsrvctl:system/vendor/bin/pvrsrvctl \
     vendor/oppo/r7plusm/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
-    vendor/oppo/r7plusm/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib/egl/libEGL_mtk.so:system/vendor/lib/egl/libEGL_mtk.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:system/vendor/lib/egl/libGLESv1_CM_mtk.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib/egl/libGLESv2_mtk.so:system/vendor/lib/egl/libGLESv2_mtk.so \
@@ -1345,29 +1342,22 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r7plusm/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/oppo/r7plusm/proprietary/vendor/lib64/drm/libdrmwvmplugin.so:system/vendor/lib64/drm/libdrmwvmplugin.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/egl/libEGL_mtk.so:system/vendor/lib64/egl/libEGL_mtk.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/egl/libGLESv1_CM_mtk.so:system/vendor/lib64/egl/libGLESv1_CM_mtk.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/egl/libGLESv2_mtk.so:system/vendor/lib64/egl/libGLESv2_mtk.so \
-    vendor/oppo/r7plusm/proprietary/vendor/lib64/hw/audio.a2dp.blueangel.so:system/vendor/lib64/hw/audio.a2dp.blueangel.so \
-    vendor/oppo/r7plusm/proprietary/vendor/lib64/hw/bluetooth.blueangel.so:system/vendor/lib64/hw/bluetooth.blueangel.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/hw/gralloc.mt6795.so:system/vendor/lib64/hw/gralloc.mt6795.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libIMGegl.so:system/vendor/lib64/libIMGegl.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libPVROCL.so:system/vendor/lib64/libPVROCL.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libPVRScopeServices.so:system/vendor/lib64/libPVRScopeServices.so \
-    vendor/oppo/r7plusm/proprietary/vendor/lib64/libWVStreamControlAPI_L3.so:system/vendor/lib64/libWVStreamControlAPI_L3.so \
-    vendor/oppo/r7plusm/proprietary/vendor/lib64/libfpcalgorithm.so:system/vendor/lib64/libfpcalgorithm.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libglslcompiler.so:system/vendor/lib64/libglslcompiler.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/liboclcompiler.so:system/vendor/lib64/liboclcompiler.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libpvrANDROID_WSEGL.so:system/vendor/lib64/libpvrANDROID_WSEGL.so \
+    vendor/oppo/r7plusm/proprietary/vendor/lib64/libsrv_init.so:system/vendor/lib64/libsrv_init.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libsrv_um.so:system/vendor/lib64/libsrv_um.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libufwriter.so:system/vendor/lib64/libufwriter.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/libusc.so:system/vendor/lib64/libusc.so \
-    vendor/oppo/r7plusm/proprietary/vendor/lib64/libwvdrm_L3.so:system/vendor/lib64/libwvdrm_L3.so \
-    vendor/oppo/r7plusm/proprietary/vendor/lib64/libwvm.so:system/vendor/lib64/libwvm.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/oppo/r7plusm/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
-    vendor/oppo/r7plusm/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
     vendor/oppo/r7plusm/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/oppo/r7plusm/proprietary/xbin/mnld:system/xbin/mnld
